@@ -10,7 +10,7 @@ export const Navbar = () => {
     const scrolled = useScrollTop();
     return (
         <div className='flex justify-center'>
-            <div className={cn("z-50 fixed top-16 flex items-center justify-between max-w-xl w-full", scrolled && "border-b shadow-sm")}>
+            <div className={cn("px-4 z-50 fixed top-16 flex items-center justify-between max-w-xl w-full", scrolled && "border-b shadow-sm")}>
                 <Link href="/">
                     <h1 className="text-3xl font-bold">
                         David Yu

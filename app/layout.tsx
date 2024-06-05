@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={GeistSans.className} suppressHydrationWarning>
         <div className="flex justify-center">
-          <div className="h-full max-w-xl w-full fixed items-center justify-center">
+          <div className="h-full max-w-xl w-full fixed items-center justify-center px-4">
             <Navbar />
             <main className="pt-36">
               {children}
