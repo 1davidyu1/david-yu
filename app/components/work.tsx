@@ -20,7 +20,6 @@ export const Work = ({
         <div className="flex gap-2 border-t border-dashed py-2">
             <Link
                 href={url}
-                className=""
             >
                 <Image
                     src={logo}
@@ -31,9 +30,11 @@ export const Work = ({
                 />
             </Link>
             <div className="text-base flex gap-3">
-                <p className="">
+                <Link
+                    href={url}
+                >
                     {company}
-                </p>
+                </Link>
                 <p className="text-sm text-slate-400">
                     {role}
                 </p>
