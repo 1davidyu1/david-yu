@@ -26,7 +26,7 @@ export const Work = ({
                     height="25"
                     width="25"
                     alt={company}
-                    className="border rounded-md border-slate-300"
+                    className="border rounded-md border-neutral-300"
                 />
             </Link>
             <div className="text-base flex gap-3">
@@ -35,11 +35,11 @@ export const Work = ({
                 >
                     {company}
                 </Link>
-                <p className="text-sm text-slate-400">
+                <p className="text-sm text-neutral-400">
                     {role}
                 </p>
             </div>
-            <div className="ml-auto text-sm text-slate-400">
+            <div className="ml-auto text-sm text-neutral-400">
                     {period}
             </div>
         </div>

@@ -1,5 +1,6 @@
 import { Work } from "./components/work"
-import { WorkData } from "../data/work-data"
+import { WorkData, ProjectData } from "../data/work-data"
+import { Project } from "./components/project";
 
 export default function Home() {
 
@@ -14,9 +15,18 @@ export default function Home() {
     />
   ))
 
+  const projectMap = ProjectData.map((project, index) => (
+    <Project 
+      key={index}
+      name={project.name}
+      url={project.url}
+      description={project.description}
+    />
+  ))
+
   return (
     <div className="gap-y-8 grid">
-      <div className="text-lg text-slate-700">
+      <div className="text-lg text-neutral-700">
         <p>blah blah</p>
         <br />
         <p>blah blah</p>
@@ -35,6 +45,9 @@ export default function Home() {
       </div>
       <div className="text-lg">
         Projects
+        <div className="mt-2 grid grid-cols-2 gap-2">
+          {projectMap}
+        </div>
       </div>
       <div className="text-lg">
         Writings
