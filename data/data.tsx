@@ -37,3 +37,20 @@ export const ProjectData = [
         description: `I wanted to see if I could create a human-like chat that could deceive people to think it was human. 45% of 150 students mistakenly identified the chatbot for a human.`,
     },
 ]
+
+export const WritingData = [
+    {
+        id: 1,
+        image: `./YouLearn.svg`,      
+        title: `MSU AI Club`,
+        url: `https://www.msuaiclub.com/`,
+        description: `I said it`,
+    },
+    {
+        id: 1,
+        image: `./YouLearn.svg`,      
+        title: `MSU AI Club`,
+        url: `https://www.msuaiclub.com/`,
+        description: `I said it`,
+    },
+]

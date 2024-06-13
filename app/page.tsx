@@ -1,6 +1,7 @@
 import { Work } from "./components/work"
-import { WorkData, ProjectData } from "../data/work-data"
 import { Project } from "./components/project";
+import { Writing } from "./components/writing";
+import { WorkData, ProjectData, WritingData } from "../data/data"
 
 export default function Home() {
 
@@ -21,6 +22,16 @@ export default function Home() {
       name={project.name}
       url={project.url}
       description={project.description}
+    />
+  ))
+
+  const writingMap = WritingData.map((writing, index) => (
+    <Writing 
+      key={index}
+      image={writing.image}
+      title={writing.title}
+      url={writing.url}
+      description={writing.description}
     />
   ))
 
@@ -51,6 +62,9 @@ export default function Home() {
       </div>
       <div className="text-lg">
         Writings
+        <div>
+          {writingMap}
+        </div>
       </div>
     </div>
   );
