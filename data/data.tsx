@@ -41,16 +41,16 @@ export const ProjectData = [
 export const WritingData = [
     {
         id: 1,
-        image: `./YouLearn.svg`,      
-        title: `MSU AI Club`,
-        url: `https://www.msuaiclub.com/`,
-        description: `I said it`,
+        image: `./Writing.svg`,      
+        title: `Design`,
+        url: `https://youtu.be/dQw4w9WgXcQ`,
+        description: `The art behind.`,
     },
     {
-        id: 1,
-        image: `./YouLearn.svg`,      
-        title: `MSU AI Club`,
-        url: `https://www.msuaiclub.com/`,
-        description: `I said it`,
+        id: 2,
+        image: `./Writing2.svg`,      
+        title: `Reflect`,
+        url: `https://youtu.be/dQw4w9WgXcQ`,
+        description: `A new beginning.`,
     },
 ]

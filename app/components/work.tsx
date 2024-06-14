@@ -17,7 +17,7 @@ export const Work = ({
     period
 }: WorkProps) => {
     return (
-        <div className="flex gap-2 border-t border-dashed py-2">
+        <div className="flex gap-2 border-t border-gray-300 border-dashed py-2">
             <Link
                 href={url}
             >
@@ -26,7 +26,7 @@ export const Work = ({
                     height="25"
                     width="25"
                     alt={company}
-                    className="border rounded-md border-neutral-300"
+                    className="border rounded-md border-gray-300"
                 />
             </Link>
             <div className="text-base flex gap-3">
@@ -35,11 +35,11 @@ export const Work = ({
                 >
                     {company}
                 </Link>
-                <p className="text-sm text-neutral-400">
+                <p className="text-sm text-gray-400">
                     {role}
                 </p>
             </div>
-            <div className="ml-auto text-sm text-neutral-400">
+            <div className="ml-auto text-sm text-gray-400">
                     {period}
             </div>
         </div>

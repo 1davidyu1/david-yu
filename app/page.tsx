@@ -37,32 +37,31 @@ export default function Home() {
 
   return (
     <div className="gap-y-8 grid">
-      <div className="text-lg text-neutral-700">
+      <div className="text-lg text-gray-700">
+        <p>This is an unfinished portfolio, quickly created to later add valuable info, share ideas, link in my resume, and document my journey.</p>        {/* <br />
         <p>blah blah</p>
         <br />
         <p>blah blah</p>
         <br />
-        <p>blah blah</p>
-        <br />
-        <p>blah blah</p>
-        <br />
+        <p>blah blah</p> */}
+        {/* <br /> */}
         <br />
       </div>
       <div className="text-lg">
         Work
-        <div className="mt-2 border-b border-dashed">
+        <div className="mt-2 border-b border-gray-300 border-dashed">
           {workMap}
         </div>
       </div>
       <div className="text-lg">
         Projects
-        <div className="mt-2 grid grid-cols-2 gap-3">
+        <div className="mt-2 grid border-gray-300 grid-cols-2 gap-3">
           {projectMap}
         </div>
       </div>
       <div className="text-lg">
         Writings
-        <div>
+        <div className="mt-2 border-b border-gray-300 border-dashed">
           {writingMap}
         </div>
       </div>

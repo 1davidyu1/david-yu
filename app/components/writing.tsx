@@ -15,28 +15,25 @@ export const Writing = ({
     description
 }: WritingProps) => {
     return (
-        <div className="flex gap-2 border-t border-dashed py-2">
+        <div>
             <Link
                 href={url}
+                className="flex gap-2 border-t border-gray-300 border-dashed py-2"
             >
                 <Image
                     src={image}
-                    height="100"
-                    width="100"
+                    height="120"
+                    width="120"
                     alt={title}
-                    className="border rounded-md border-neutral-300"
+                    className="border rounded-md border-gray-300"
                 />
+                <div className="text-base gap-3 items-center justify-center my-auto ml-2">
+                        {title}
+                    <p className="text-sm text-gray-400 mt-1">
+                        {description}
+                    </p>
+                </div>
             </Link>
-            <div className="text-base flex gap-3">
-                <Link
-                    href={url}
-                >
-                    {title}
-                </Link>
-                <p className="text-sm text-neutral-400">
-                    {description}
-                </p>
-            </div>
         </div>
     )
 }   

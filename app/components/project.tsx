@@ -21,10 +21,10 @@ export const Project = ({
                 <div className='flex justify-between items-center w-full pb-1'>
                     {name}
                     <ExternalLink
-                        className='text-neutral-400 h-4 w-4'
+                        className='text-gray-400 h-4 w-4'
                     />
                 </div>
-                <div className='text-neutral-400 line-clamp-2 text-sm pr-3'>
+                <div className='text-gray-400 line-clamp-2 text-sm pr-3'>
                     {description}    
                 </div>
             </Link>

@@ -18,17 +18,17 @@ export const Navbar = () => {
                         </h1>
                     </Link>
                     <Link href="https://x.com/1davidyu1">
-                        <h1 className="text-lg text-neutral-500">
+                        <h1 className="text-lg text-gray-600">
                             @1davidyu1
                         </h1>
                     </Link>
                 </div>
                 <div className="flex items-center gap-x-4">
                     <Link href="https://x.com/1davidyu1">
-                        <Twitter className="text-muted-foreground hover:text-black h-5 w-5"/>
+                        <Twitter className="text-muted-foreground text-gray-600 h-5 w-5"/>
                     </Link>
                     <Link href="https://www.linkedin.com/in/david-yu-871202244/">
-                        <Linkedin className="text-muted-foreground hover:text-black h-5 w-5"/>
+                        <Linkedin className="text-muted-foreground text-gray-600 h-5 w-5"/>
                     </Link>
                 </div>
             </div>
