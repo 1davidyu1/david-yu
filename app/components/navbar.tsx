@@ -11,7 +11,7 @@ export const Navbar = () => {
     const scrolled = useScrollTop();
     return (
         <div className='flex justify-center'>
-            <div className={cn("px-4 z-50 fixed bg-white py-4 sm:py-8 flex items-center justify-between max-w-2xl w-full")}>
+            <div className={cn("px-4 z-50 fixed bg-white py-6 sm:py-8 flex items-center justify-between max-w-2xl w-full", scrolled && "border-b shadow-sm sm:border-none sm:shadow-none")}>
                 <div className='flex gap-4 align-center items-end'>
                     <Link href="/">
                         <Image 
