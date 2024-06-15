@@ -20,7 +20,7 @@ export default function RootLayout({
         <div className="flex justify-center">
           <div className="max-w-2xl w-full items-center justify-center px-4">
             <Navbar />
-            <main className="pt-36">
+            <main className="pt-36 pb-12">
               {children}
             </main>
           </div>
