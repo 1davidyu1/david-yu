@@ -55,7 +55,7 @@ export default function Home() {
       </div>
       <div className="text-lg">
         Projects
-        <div className="mt-2 grid border-gray-300 grid-cols-2 gap-3">
+        <div className="mt-2 grid border-gray-300 grid-cols-1 sm:grid-cols-2 gap-3">
           {projectMap}
         </div>
       </div>

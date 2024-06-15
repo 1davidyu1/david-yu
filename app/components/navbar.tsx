@@ -11,7 +11,7 @@ export const Navbar = () => {
     const scrolled = useScrollTop();
     return (
         <div className='flex justify-center'>
-            <div className={cn("px-4 z-50 fixed bg-white pt-8 pb-8 flex items-center justify-between max-w-2xl w-full")}>
+            <div className={cn("px-4 z-50 fixed bg-white py-4 sm:py-8 flex items-center justify-between max-w-2xl w-full")}>
                 <div className='flex gap-4 align-center items-end'>
                     <Link href="/">
                         <Image 
@@ -22,7 +22,7 @@ export const Navbar = () => {
                         />
                     </Link>
                     <Link href="https://x.com/1davidyu1">
-                        <h1 className="text-lg text-gray-600">
+                        <h1 className="text-lg text-gray-600 sm:block hidden">
                             @1davidyu1
                         </h1>
                     </Link>
