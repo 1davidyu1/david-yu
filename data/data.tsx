@@ -44,7 +44,7 @@ export const WritingData = [
         image: `./Writing.svg`,      
         title: `Design`,
         url: `https://youtu.be/dQw4w9WgXcQ`,
-        description: `The art behind.`,
+        description: `The art behind it all.`,
     },
     {
         id: 2,
